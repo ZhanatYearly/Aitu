@@ -91,10 +91,6 @@ public class Bank {
         System.out.println("Счет №" + newNumber + " открыт для клиента " + customer.getName() + ".");
         return newAccount;
     }
-
-    public String getName() {
-        return name;
-    }
 }
 void main() {
     Bank myBank = new Bank("Банк");
