@@ -37,7 +37,7 @@ public class Account {
     private double balance;
     private Customer accountHolder;
 
-    public Account(String accountNumber, Customer accountHolder, double initialBalance) { // Порядок аргументов изменен
+    public Account(String accountNumber, Customer accountHolder, double initialBalance) {
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
         this.balance = initialBalance;
